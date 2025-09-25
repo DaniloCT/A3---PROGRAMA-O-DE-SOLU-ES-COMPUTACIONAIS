@@ -1184,7 +1184,7 @@ public class AppProjetos {
         gbc.gridx = 0; gbc.gridy = 4;
         panel.add(new JLabel("Início (dd/MM/yyyy):"), gbc);
         gbc.gridx = 1;
-        // Correção: declaração única e atribuição condicional para inicioField e terminoField
+        // Correcao: declaração única e atribuição condicional para inicioField e terminoField
         final JFormattedTextField inicioField;
         {
             JFormattedTextField temp;
